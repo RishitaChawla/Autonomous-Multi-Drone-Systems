@@ -1,4 +1,4 @@
-# Sweeping Generator
+# How to Run the Code
 
 ## How to start
 

@@ -1,6 +1,5 @@
 # How to Run the Code
 
-## How to start
 
 Step 1
 

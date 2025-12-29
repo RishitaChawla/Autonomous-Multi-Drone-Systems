@@ -58,7 +58,6 @@ uav3
 - **Perception:** Camera-based target detection and localization using OpenCV and Image Processing
 
 ### Summer Research Symposium
-- Poster
   <img width="720" height="541" alt="image" src="https://github.com/user-attachments/assets/3b8b0ed4-a5d6-4334-9cf6-2cc9e8cba4bd" />
 
 More pictures coming soon !

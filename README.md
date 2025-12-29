@@ -1,5 +1,32 @@
 ## Autonomous Multi Drone System 
 
+### How to Run the Code
+
+
+**Step 1**
+
+cd into the MRS_UAV three_drones system 
+```bash
+./tmux/start.sh
+```
+**Step2**
+
+Ctrl+t in the terminal -
+
+```bash
+roscd example_multi_uav_coordination  
+roslaunch example_multi_uav_coordination multi_uav_coordination.launch
+```
+
+
+When ready, call the service prepared in the bottom terminal window for generating the trajectory:
+```bash
+rosservice call /$UAV_NAME/multi_uav_coordination/start 3.0
+```
+uav1
+uav2
+uav3
+
 ### Overview
 - Built and tested a **distributed multi-drone coordination system** in simulation (**Gazebo + RViz**) using **Python and ROS**.
 - **Goal:** Enable search-and-rescue style coordination **without a ground station** when communication is unreliable.
@@ -30,29 +57,10 @@
 - **Networking:** IP-based inter-drone communication  
 - **Perception:** Camera-based target detection and localization using OpenCV and Image Processing
 
-### How to Run the Code
+### Summer Research Symposium
+- Poster
+  <img width="720" height="541" alt="image" src="https://github.com/user-attachments/assets/3b8b0ed4-a5d6-4334-9cf6-2cc9e8cba4bd" />
+
+More pictures coming soon !
 
 
-**Step 1**
-
-cd into the MRS_UAV three_drones system 
-```bash
-./tmux/start.sh
-```
-**Step2**
-
-Ctrl+t in the terminal -
-
-```bash
-roscd example_multi_uav_coordination  
-roslaunch example_multi_uav_coordination multi_uav_coordination.launch
-```
-
-
-When ready, call the service prepared in the bottom terminal window for generating the trajectory:
-```bash
-rosservice call /$UAV_NAME/multi_uav_coordination/start 3.0
-```
-uav1
-uav2
-uav3
